@@ -1,0 +1,253 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "password123",
+      "role": "admin",
+      "name": "Admin User"
+    },
+    {
+      "id": 2,
+      "username": "trainer1",
+      "password": "password123",
+      "role": "trainer",
+      "name": "John Trainer"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "phone": "555-123-4567",
+      "joinDate": "2023-01-15",
+      "membershipType": "Premium",
+      "membershipStatus": "Inactive",
+      "membershipEnd": "2024-01-15",
+      "emergencyContact": "Jane Smith: 555-987-6543",
+      "age": 28,
+      "gender": "Male",
+      "goals": "Weight loss, Muscle tone"
+    },
+    {
+      "id": 2,
+      "name": "Emily Johnson",
+      "email": "emily.j@example.com",
+      "phone": "555-789-0123",
+      "joinDate": "2022-11-10",
+      "membershipType": "Standard",
+      "membershipStatus": "Active",
+      "membershipEnd": "2023-11-10",
+      "emergencyContact": "Michael Johnson: 555-456-7890",
+      "age": 32,
+      "gender": "Female",
+      "goals": "Strength training"
+    },
+    {
+      "id": 3,
+      "name": "Robert Chen",
+      "email": "robert.chen@example.com",
+      "phone": "555-234-5678",
+      "joinDate": "2023-02-20",
+      "membershipType": "Premium",
+      "membershipStatus": "Active",
+      "membershipEnd": "2024-02-20",
+      "emergencyContact": "Linda Chen: 555-876-5432",
+      "age": 45,
+      "gender": "Male",
+      "goals": "General fitness"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Williams",
+      "email": "sarah.w@example.com",
+      "phone": "555-345-6789",
+      "joinDate": "2023-03-05",
+      "membershipType": "Standard",
+      "membershipStatus": "Inactive",
+      "membershipEnd": "2023-09-05",
+      "emergencyContact": "David Williams: 555-765-4321",
+      "age": 29,
+      "gender": "Female",
+      "goals": "Flexibility, Cardio"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "email": "michael.b@example.com",
+      "phone": "555-456-7890",
+      "joinDate": "2023-04-12",
+      "membershipType": "Basic",
+      "membershipStatus": "Active",
+      "membershipEnd": "2023-10-12",
+      "emergencyContact": "Jennifer Brown: 555-654-3210",
+      "age": 38,
+      "gender": "Male",
+      "goals": "Muscle building"
+    },
+    {
+      "name": "hello user",
+      "email": "john.smith@example.com",
+      "phone": "555-123-4567",
+      "joinDate": "2025-05-11",
+      "membershipType": "Premium",
+      "membershipStatus": "Active",
+      "membershipEnd": "2025-09-06",
+      "emergencyContact": "Jane Smith: 555-987-6543",
+      "age": 18,
+      "gender": "Female",
+      "goals": "muscle gain",
+      "id": 6
+    }
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "name": "Alex Rodriguez",
+      "email": "alex.r@fittrack.com",
+      "phone": "555-111-2222",
+      "hireDate": "2022-05-15",
+      "specialties": [
+        "Weight training",
+        "Nutrition",
+        "HIIT"
+      ],
+      "certifications": [
+        "ACE",
+        "NASM CPT"
+      ],
+      "bio": "Alex has 8 years of experience in fitness training with a focus on weight management and nutritional coaching.",
+      "schedule": "Mon-Fri: 8AM-4PM",
+      "imageUrl": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "Morning HIIT",
+      "trainer": 1,
+      "timeStart": "07:00",
+      "timeEnd": "08:00",
+      "days": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "capacity": 15,
+      "enrolled": 12,
+      "location": "Studio A",
+      "description": "High intensity interval training to boost your metabolism and start your day right."
+    },
+    {
+      "id": 2,
+      "name": "Power Yoga",
+      "trainer": 2,
+      "timeStart": "10:00",
+      "timeEnd": "11:00",
+      "days": [
+        "Tuesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "capacity": 20,
+      "enrolled": 15,
+      "location": "Studio B",
+      "description": "A vigorous, fitness-based approach to vinyasa-style yoga."
+    },
+    {
+      "id": 3,
+      "name": "Strength Fundamentals",
+      "trainer": 3,
+      "timeStart": "17:00",
+      "timeEnd": "18:00",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "capacity": 12,
+      "enrolled": 10,
+      "location": "Weight Room",
+      "description": "Learn proper form and technique for fundamental strength exercises."
+    },
+    {
+      "id": 4,
+      "name": "Cardio Kickboxing",
+      "trainer": 1,
+      "timeStart": "18:30",
+      "timeEnd": "19:30",
+      "days": [
+        "Wednesday",
+        "Friday"
+      ],
+      "capacity": 18,
+      "enrolled": 14,
+      "location": "Studio A",
+      "description": "High-energy martial arts-inspired workout that's totally non-contact."
+    },
+    {
+      "id": 5,
+      "name": "Gentle Flow Yoga",
+      "trainer": 2,
+      "timeStart": "14:00",
+      "timeEnd": "15:00",
+      "days": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "capacity": 20,
+      "enrolled": 8,
+      "location": "Studio B",
+      "description": "A slow-paced class focusing on breathing and gentle movements."
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "amount": 99.99,
+      "date": "2023-12-15",
+      "type": "Monthly",
+      "status": "Paid",
+      "method": "Credit Card"
+    },
+    {
+      "id": 2,
+      "memberId": 2,
+      "amount": 79.99,
+      "date": "2023-11-10",
+      "type": "Monthly",
+      "status": "Paid",
+      "method": "Bank Transfer"
+    },
+    {
+      "id": 3,
+      "memberId": 3,
+      "amount": 99.99,
+      "date": "2023-12-20",
+      "type": "Monthly",
+      "status": "Paid",
+      "method": "Credit Card"
+    },
+    {
+      "id": 4,
+      "memberId": 4,
+      "amount": 79.99,
+      "date": "2023-09-05",
+      "type": "Monthly",
+      "status": "Overdue",
+      "method": "Credit Card"
+    },
+    {
+      "id": 5,
+      "memberId": 5,
+      "amount": 59.99,
+      "date": "2023-11-12",
+      "type": "Monthly",
+      "status": "Paid",
+      "method": "Cash"
+    }
+  ]
+}
